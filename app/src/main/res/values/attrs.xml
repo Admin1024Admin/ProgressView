@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressView">
+        <attr name="title" format="string"/>
+        <attr name="num" format="string"/>
+        <attr name="unit" format="string"/>
+        <attr name="titleTextsize" format="dimension"/>
+        <attr name="numTextsize" format="dimension"/>
+        <attr name="unitTextsize" format="dimension"/>
+        <attr name="titleTextColor" format="color"/>
+        <attr name="numTextColor" format="color"/>
+        <attr name="unitTextColor" format="color"/>
+        <attr name="backCircleWidth" format="dimension"/>
+        <attr name="outerCircleWidth" format="dimension"/>
+        <attr name="backCircleColor" format="color"/>
+        <attr name="outerCircleColor" format="color"/>
+        <attr name="endCircleWidth" format="dimension"/>
+        <attr name="edgeDistance" format="dimension"/>
+        <attr name="endCircleColor" format="color"/>
+        <attr name="currentPercent" format="float"/>
+    </declare-styleable>
+</resources>

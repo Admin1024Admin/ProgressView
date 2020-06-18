@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <com.l024.studydemo.views.ProgressView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:title="title"
+        app:num="100"
+        app:unit="unit"
+        android:id="@+id/pv_view"
+        app:titleTextsize="30sp"
+        app:numTextsize="25sp"
+        app:unitTextsize="20sp"
+        app:unitTextColor="@color/colorAccent"
+        app:titleTextColor="#f49265"
+        />
+
+</LinearLayout>
